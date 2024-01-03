@@ -1,8 +1,10 @@
 package com.luv2code.springbootlibrary.entity;
 
 
-import jakarta.persistence.*;
 import lombok.Data;
+
+import javax.persistence.*;
+
 
 @Data
 @Entity
@@ -28,7 +30,7 @@ public class Book {
     private String copies;
 
     @Column(name ="copies_available")
-    private String copiesAvailable;
+    private int copiesAvailable;
 
     @Column(name ="category")
     private String category;
