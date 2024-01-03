@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Getting Started with Installation
+1. Install node js
+2. Install type script
+   npm install --location=global typescript@4.7.4
+   Set-ExecutionPolicy RemoteSigned
+3. install react-router-dom - For navigation to different pages.
+   npm install react-router-dom@5
+
+# For Authentication and Authorization
+1. create a developer octa account and configure the open id connect client id.
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -44,3 +57,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
